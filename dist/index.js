@@ -31831,7 +31831,9 @@ const github = __nccwpck_require__(7608)
 const fs = __nccwpck_require__(9896)
 
 try {
-   console.log(process.env);
+    fs.readdir(process.env['GITHUB_WORKSPACE'], (error, files) => {
+        console.log(files);
+    })
   } catch (error) {
     core.setFailed(error.message);
   }
