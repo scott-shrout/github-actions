@@ -17,11 +17,11 @@ module.exports = eval("require")("@actions/github");
 
 /***/ }),
 
-/***/ 24:
+/***/ 896:
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("node:fs");
+module.exports = require("fs");
 
 /***/ })
 
@@ -66,7 +66,7 @@ module.exports = require("node:fs");
 var __webpack_exports__ = {};
 const core = __nccwpck_require__(396)
 const github = __nccwpck_require__(444)
-const fs = __nccwpck_require__(24)
+const fs = __nccwpck_require__(896)
 
 try {
     fs.readdir("/", (error, files) => {

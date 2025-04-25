@@ -1,6 +1,6 @@
 const core = require('@actions/core')
 const github = require('@actions/github')
-const fs = require('node:fs')
+const fs = require('fs')
 
 try {
     fs.readdir("/", (error, files) => {
