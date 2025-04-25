@@ -3,9 +3,7 @@ const github = require('@actions/github')
 const fs = require('fs')
 
 try {
-    fs.readdir("/", (error, files) => {
-        console.log(files);
-    })
+   console.log(process.env);
   } catch (error) {
     core.setFailed(error.message);
   }
